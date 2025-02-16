@@ -1,0 +1,89 @@
+# Compiled binaries and packages
+*.exe
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.lo
+
+# Go build output
+bin/
+pkg/
+
+# Test artifacts
+_test/
+*.test
+
+# Vendor dependencies (if using go mod vendor)
+vendor/
+
+# IDE specific files
+.idea/      
+.vscode/    
+.settings/  
+*.suo      
+*.sln      
+*.user     
+
+# Logs and temporary files
+*.log
+*.out
+*.tmp
+*.temp
+*.swp  # Vim swap files
+*.swo  # Vim swap files
+*.lock
+
+# Cache directories
+.cache/
+__debug_bin
+_obj
+
+# Coverage reports
+*.coverprofile
+coverage.out
+cover/
+
+# Distribution packages
+dist/
+build/
+out/
+
+# Sensitive information (never commit these!)
+.env      
+config.ini 
+*.key      
+*.pem      
+
+# OS Specific
+.DS_Store # macOS
+Thumbs.db # Windows
+ehthumbs.db # Windows
+
+# Go tools cache
+$GOPATH/pkg/
+
+# Large files (unless absolutely necessary)
+*.zip
+*.rar
+*.tar
+*.gz
+*.7z
+*.dmg
+*.iso
+
+# Go generated files (if you want to ignore them)
+# These are often regenerated, so it's a matter of preference
+# If you don't ignore them, they'll be tracked by Git
+# *_easyjson.go # EasyJSON generated files (example)
+# <your_generated_files>.go
+
+# If you have specific files you want to ignore, add them here
+# Example:
+# my_secret_file.txt
+
+# If you want to include a specific file within an ignored directory, use the "!" (negate) operator
+# Example:
+# vendor/
+# !vendor/some_package/go.mod  # Include the go.mod for a specific vendored package
